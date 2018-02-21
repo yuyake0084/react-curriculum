@@ -13,6 +13,7 @@ export default {
 
   devServer: {
     contentBase: './public',
+    port: 3000,
   },
 
   module: {
@@ -21,6 +22,9 @@ export default {
         test: /\.js[x]?$/,
         exclude: /node_modules/,
         loaders: 'babel',
+        options: {
+          presets: [['es2015', { modules: false }], 'react', 'stage-0'],
+        },
       }
     ],
   },
