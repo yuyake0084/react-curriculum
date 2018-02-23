@@ -1,0 +1,14 @@
+.c-input {
+  width: 100%;
+  padding: 14px 61px 14px 16px;
+  font-size: 14px;
+  color: #666;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: all .3s;
+
+  &:focus {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3);
+  }
+}

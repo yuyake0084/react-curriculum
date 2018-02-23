@@ -1,0 +1,31 @@
+.c-btn {
+  position: absolute;
+  right: 0;
+  width: 45px;
+  height: 100%;
+  cursor: pointer;
+  background-color: #2cb5eb;
+  border-radius: 0 4px 4px 0;
+
+  &::before,
+  &::after {
+    position: absolute;
+    content: '';
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+  }
+
+  &::before {
+    width: 3px;
+    height: 50%;
+  }
+
+  &::after {
+    width: 50%;
+    height: 3px;
+  }
+}

@@ -1,0 +1,11 @@
+.u-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.u-half__width {
+  width: 50%;
+  margin: 0 auto;
+}
